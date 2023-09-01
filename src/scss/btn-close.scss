@@ -1,0 +1,36 @@
+.btn-close::after {
+  display: block;
+  content: "";
+  position: relative;
+  left: 12.5px;
+  bottom: 14px;
+  height: 22px;
+  width: 2.5px;
+  background-color: #000;
+  rotate: 45deg;
+  border-radius: 2px;
+}
+
+.btn-close::before {
+  display: block;
+  content: "";
+  position: relative;
+  left: 12.5px;
+  top: 8px;
+  height: 22px;
+  width: 2.5px;
+  background-color: #000;
+  rotate: -45deg;
+  border-radius: 2px;
+}
+
+.btn-close {
+  width: 40px;
+  height: 40px;
+  background-color: rgba($color: #fff, $alpha: 0);
+  border: none;
+  position: absolute;
+  right: -10px;
+  top: -40px;
+  cursor: pointer;
+}

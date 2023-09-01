@@ -1,0 +1,14 @@
+.block-title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  padding-bottom: 16px;
+}
+
+@media screen and (max-width: 900px) {
+  .block-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}

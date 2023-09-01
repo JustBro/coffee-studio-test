@@ -1,0 +1,12 @@
+.wrap {
+  margin: 0 auto;
+  width: 83.33vw;
+  max-width: 1600px;
+  min-width: 300px;
+}
+
+@media screen and (max-width: 360px) {
+  .wrap {
+    margin: 0 8.5vw;
+  }
+}

@@ -1,0 +1,39 @@
+@keyframes sizeIn {
+    from {
+        scale: 1;
+    }
+
+    to {
+        scale: 1.1;
+    }
+}
+
+@keyframes sizeOut {
+    from {
+        scale: 1.1;
+    }
+
+    to {
+        scale: 1;
+    }
+}
+
+@keyframes smallSizeIn {
+    from {
+        scale: 1;
+    }
+
+    to {
+        scale: 1.05;
+    }
+}
+
+@keyframes smallSizeOut {
+    from {
+        scale: 1.05;
+    }
+
+    to {
+        scale: 1;
+    }
+}

@@ -1,0 +1,36 @@
+.arrow-btns {
+  width: 104px;
+  height: 84px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.arrow-btns__btn {
+  width: 44px;
+  height: 44px;
+  background-image: url(../img/icon-arrow.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(0, 61, 89, 0.04);
+  cursor: pointer;
+  animation-name: sizeOut;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.arrow-btns__btn:hover {
+  animation-name: sizeIn;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.arrow-btns__btn--right {
+  transform: rotate(180deg);
+  margin-left: 16px;
+}
+
+.arrow-btns__btn--off {
+  background-image: url(../img/icon-arrow-off.svg);
+}

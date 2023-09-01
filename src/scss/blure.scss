@@ -1,0 +1,12 @@
+.blure {
+    display: none;
+    line-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba($color: #cfcfcf, $alpha: 0.85);
+  }
